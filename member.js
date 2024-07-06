@@ -1,4 +1,7 @@
-function skillMember() {
-  this.name = 'skillMember';
-  this.skill = 'skillMember';
-}
+function skillsMember() {
+    return {
+        name: 'John Doe',
+        skills: ['Javascript', 'React', 'Node'],
+        age: 25
+    }
+}  
